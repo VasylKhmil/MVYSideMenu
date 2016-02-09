@@ -16,7 +16,7 @@
 @property (nonatomic, strong, readonly) UIViewController *menuViewController;
 
 /** View controller showed as content view @see changeContentViewController:closeMenu: */
-@property (nonatomic, strong, readonly) UIViewController *contentViewController;
+@property (nonatomic, strong) UIViewController *contentViewController;
 
 /** Menu options parameters @see MVSideMenuOptions */
 @property (nonatomic, copy) MVYSideMenuOptions *options;
