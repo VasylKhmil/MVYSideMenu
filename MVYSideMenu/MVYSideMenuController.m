@@ -23,7 +23,6 @@ typedef struct {
 
 @interface MVYSideMenuController () <UIGestureRecognizerDelegate>
 
-@property (nonatomic, strong) UIViewController *menuViewController;
 @property (strong, nonatomic) UIView *menuContainerView;
 @property (strong, nonatomic) UIView *opacityView;
 @property (strong, nonatomic) UIPanGestureRecognizer *panGesture;
